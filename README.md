@@ -1,5 +1,5 @@
 
-# Awesome Image Viewer App
+# Image Viewer App
 
 ## Description
 This iOS application utilizes the Unsplash API to fetch stunning images and displays them using the powerful URLSession in Swift. The app also incorporates the SDWebImage pod for efficient image loading and caching. With a user-friendly interface, the app provides features such as an image carousel, a scrollable list with search functionality, offline capability, and the ability to view label details on a separate screen.
@@ -33,6 +33,88 @@ This iOS application utilizes the Unsplash API to fetch stunning images and disp
 
 
 
+## Getting Started
+
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Make sure you have the following installed on your development machine:
+
+- [Xcode](https://developer.apple.com/xcode/)
+- [CocoaPods](https://cocoapods.org/)
+
+ 
+### Installation
+
+Follow these steps to set up and run the project:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/your-project.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd your-project
+   ```
+
+3. Open the `Podfile` in the root directory and add the following lines to include `SDWebImage`:
+
+   ```ruby
+   # Podfile
+
+   platform :ios, '11.0'
+   use_frameworks!
+
+   target 'ImageDemo' do
+     # Add other pods if needed
+
+     # Include SDWebImage
+     pod 'SDWebImage', '~> 5.0'
+   end
+   ```
+
+4. Save the `Podfile` and close it.
+
+5. Install project dependencies using CocoaPods:
+
+   ```bash
+   pod install
+   ```
+
+   This will install the required dependencies, including `SDWebImage`.
+
+6. Open the Xcode workspace (`.xcworkspace`) file:
+
+   ```bash
+   open ImageDemo.xcworkspace
+   ```
+
+7. Build and run the project from Xcode.
+
+ ## Dependencies
+
+- [Unsplash API](https://unsplash.com/developers) - Open API for fetching beautiful images.
+- [SDWebImage](https://github.com/SDWebImage/SDWebImage) - Third-party pod for efficient image loading and caching.
+  
+### Usage
+
+Explain how users can interact with your project. Provide code snippets or examples for common use cases.
+
+```swift
+import SDWebImage
+
+// Example usage of SDWebImage
+imageView.sd_setImage(with: URL(string: "https://example.com/image.jpg"), placeholderImage: UIImage(named: "placeholder"))
+```
+
+
+
+
+
 
 
 
@@ -43,33 +125,8 @@ This iOS application utilizes the Unsplash API to fetch stunning images and disp
 | ![Demo Video 1](https://github.com/rohit-dseu/1/blob/main/WhatsApp%20Video%202024-01-20%20at%2011.50.24%20PM.gif) | ![Demo Video 2](https://github.com/rohit-dseu/1/blob/main/WhatsApp%20Video%202024-01-20%20at%2011.49.47%20PM.gif)|
 
 
-## Usage
 
-To use the Awesome Image Viewer App, follow these steps:
 
-1. **Clone the repository** to your local machine.
-    bash
-    git clone https://github.com/your-username/awesome-image-viewer.git
-    
-
-2. **Navigate to the project directory**.
-    bash
-    cd awesome-image-viewer
-    
-
-3. **Install Dependencies**. Ensure you have CocoaPods installed on your machine.
-    bash
-    pod install
-    
-
-4. **Open the Xcode project**. Open the generated `.xcworkspace` file to work with the project.
-
-5. **Build and Run the app** on your iOS device or simulator.
-
-## Dependencies
-
-- [Unsplash API](https://unsplash.com/developers) - Open API for fetching beautiful images.
-- [SDWebImage](https://github.com/SDWebImage/SDWebImage) - Third-party pod for efficient image loading and caching.
 
 # Project Structure
 
