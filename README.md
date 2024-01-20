@@ -85,10 +85,9 @@ swift
 - Tapping on a label navigates the user to a separate screen displaying additional details about the selected label.
 
 ## Demo Videos and Images
-
-[Demo Video 1](https://github.com/rohit-dseu/1/blob/main/WhatsApp%20Video%202024-01-20%20at%2011.49.47%20PM.gif) - Showcase of Image Carousel and List Scroll
-
-[Demo Video 2](video_link_2) - Search Functionality in Action
+###Showcase of Image Carousel and List Scroll
+![Demo Video 1](https://github.com/rohit-dseu/1/blob/main/WhatsApp%20Video%202024-01-20%20at%2011.49.47%20PM.gif) 
+![Demo Video 2](video_link_2) - Search Functionality in Action
 
 ![Screenshot 1](screenshot_1.png) - Image Carousel in Action
 
