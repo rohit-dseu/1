@@ -99,6 +99,20 @@ Follow these steps to set up and run the project:
 
 - [Unsplash API](https://unsplash.com/developers) - Open API for fetching beautiful images.
 - [SDWebImage](https://github.com/SDWebImage/SDWebImage) - Third-party pod for efficient image loading and caching.
+## API Reference
+
+#### Get API
+
+http
+  GET "https://api.unsplash.com/photos/?client_id=\(self.apiKey)&order_by=ORDER&per_page=30"
+
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| api_key | String | *Required*. vsul3NjDd3jUmSml6M2hMLTQE4K9ISFXdbTPbCOlzdw |
+| order_by | String | ORDER |
+| per_page | string | 30|
+
   
 ### Usage
 
