@@ -29,69 +29,19 @@ This iOS application utilizes the Unsplash API to fetch stunning images and disp
 
 - Click on a label to view detailed information on a separate screen.
 
-## Solution/Assumptions
-
-### Data Source
-
-- The app fetches images from the Unsplash API. Ensure a stable internet connection for the initial data retrieval.
-- Data is stored locally using a caching mechanism for offline access.
-
-### Image Carousel
-
-swift
-// Swift code for handling image carousel
-// Example code here
 
 
-- The image carousel dynamically loads images from the Unsplash API, providing a smooth and interactive user experience.
-
-### Scrollable List
-
-swift
-// Swift code for handling scrollable list
-// Example code here
 
 
-- The scrollable list contains labels associated with the fetched images.
-- The list seamlessly scrolls with the entire page, allowing users to explore a vast collection of images.
-
-### Search Functionality
-
-swift
-// Swift code for implementing search functionality
-// Example code here
 
 
-- The search bar enables users to filter labels in real-time, enhancing the overall user experience.
-- The search bar is fixed at the top of the list for easy access and visibility.
 
-### Offline Capability
-
-swift
-// Swift code for implementing offline capability
-// Example code here
-
-
-- Cached data allows users to access previously fetched images even without an internet connection.
-- The app checks for cached data on startup and updates the cache when an internet connection is available.
-
-### Label Details
-
-swift
-// Swift code for displaying label details
-// Example code here
-
-
-- Tapping on a label navigates the user to a separate screen displaying additional details about the selected label.
 
 ## Demo Videos and Images
 | Showcase of Image Carousel and List Scroll                       |   Search Functionality in Action                      |
 | ----------------------------------- | ----------------------------------- |
 | ![Demo Video 1](https://github.com/rohit-dseu/1/blob/main/WhatsApp%20Video%202024-01-20%20at%2011.50.24%20PM.gif) | ![Demo Video 2](https://github.com/rohit-dseu/1/blob/main/WhatsApp%20Video%202024-01-20%20at%2011.49.47%20PM.gif)|
 
-![Screenshot 1](screenshot_1.png) - Image Carousel in Action
-
-![Screenshot 2](screenshot_2.png) - Scrollable List with Search Bar
 
 ## Usage
 
