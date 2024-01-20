@@ -87,7 +87,7 @@ swift
 ## Demo Videos and Images
 | Showcase of Image Carousel and List Scroll                       |   Search Functionality in Action                      |
 | ----------------------------------- | ----------------------------------- |
-| ![Demo Video 1](https://github.com/rohit-dseu/1/blob/main/WhatsApp%20Video%202024-01-20%20at%2011.49.47%20PM.gif) | ![Demo Video 2](https://github.com/rohit-dseu/1/blob/main/WhatsApp%20Video%202024-01-20%20at%2011.49.47%20PM.gif)|
+| ![Demo Video 1](https://github.com/rohit-dseu/1/blob/main/WhatsApp%20Video%202024-01-20%20at%2011.50.24%20PM.gif) | ![Demo Video 2](https://github.com/rohit-dseu/1/blob/main/WhatsApp%20Video%202024-01-20%20at%2011.49.47%20PM.gif)|
 
 ![Screenshot 1](screenshot_1.png) - Image Carousel in Action
 
