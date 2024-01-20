@@ -104,7 +104,7 @@ Follow these steps to set up and run the project:
 #### Get API
 
 http
-  GET "https://api.unsplash.com/photos/?client_id=\(self.apiKey)&order_by=ORDER&per_page=30"
+  GET "https://api.unsplash.com/photos/?client_id=\(Your_APIKey)&order_by=ORDER&per_page=30"
 
 
 | Parameter | Type     | Description                |
@@ -154,14 +154,13 @@ imageView.sd_setImage(with: URL(string: "https://example.com/image.jpg"), placeh
 - *ImagesCarouselCell.swift:* Swift file defining a custom cell for an image carousel or slider.
 - *ImagesCarouselCell.xib:* Interface Builder file associated with the ImagesCarouselCell.swift for designing the custom image carousel cell.
 
-## ViewModel
-- *YourViewModel.swift:* ViewModel managing the interaction between the View and Model.
+## Model
+- *ImageModel.swift:* Model of the Response.
 - *Product+CoreDataProperties.swift:* CoreData-generated Swift file with additional properties for the "Product" entity.
 - *Product+CoreDataClass.swift:* CoreData-generated Swift file representing the "Product" entity as a class.
-- *ImageModel.swift:* Swift file defining a model for handling image-related data or functionality.
 
-## Model
-- *YourModel.swift:* Model representing the data and business logic of the application.
+## ViewModel
+- *mainViewControllerVM.swift:* Handles the interaction between View and Model. All Api hitting part and calculation Part is done here.
 
 ## Other Folders and Files
 - Additional folders and files as needed.
